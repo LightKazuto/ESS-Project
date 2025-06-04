@@ -72,8 +72,7 @@ function LoginPage() {
     },
     onSuccess: (data) => {
       console.log("Login successful:", data);
-      // Simpan token atau redirect ke halaman dashboard
-      navigate("/dashboard"); // Contoh redirect
+      navigate("/dashboard"); 
     },
     onError: (error) => {
       alert(`Login gagal: ${error.message}`);
