@@ -140,7 +140,7 @@ function LoginPage() {
 
             <button
               type="submit"
-              className="w-full bg-[#d4af37] text-white py-2 rounded-md hover:bg-[#C3A01B] transition duration-200"
+              className="w-full bg-[#d4af37] text-white py-2 mt-2 rounded-md hover:bg-[#C3A01B] transition duration-200"
             >
               Login
             </button>
